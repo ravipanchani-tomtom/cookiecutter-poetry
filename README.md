@@ -7,11 +7,10 @@
 ---
 
 [![Release](https://img.shields.io/github/v/release/fpgmaas/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
-[![Build status](https://img.shields.io/github/actions/workflow/status/fpgmaas/cookiecutter-poetry/main.yml?branch=main)](https://github.com/fpgmaas/cookiecutter-poetry/actions/workflows/main.yml?query=branch%3Amain)
+[![Build status](https://github.com/tomtom-internal/genesis-nav-satellite-image-evaluator/actions/workflows/main.yml/badge.svg)](https://github.com/tomtom-internal/genesis-nav-satellite-image-evaluator/actions/workflows/main.yml)
 [![Supported Python versions](https://img.shields.io/pypi/pyversions/cookiecutter-poetry)](https://pypi.org/project/cookiecutter-poetry/)
 [![Docs](https://img.shields.io/badge/docs-gh--pages-blue)](https://fpgmaas.github.io/cookiecutter-poetry/)
 [![License](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)](https://img.shields.io/github/license/fpgmaas/cookiecutter-poetry)
-
 
 This is a modern Cookiecutter template that can be used to initiate a Python project with all the necessary tools for development, testing, and deployment. It supports the following features:
 
@@ -55,14 +54,14 @@ cookiecutter https://github.com/fpgmaas/cookiecutter-poetry.git
 ```
 
 Create a repository on GitHub, and then run the following commands, replacing `<project-name>`, with the name that you gave the Github repository and
-`<github_author_handle>` with your Github username.
+`<github_org>` with your Github Organization.
 
 ``` bash
 cd <project_name>
 git init -b main
 git add .
 git commit -m "Init commit"
-git remote add origin git@github.com:<github_author_handle>/<project_name>.git
+git remote add origin git@github.com:<github_org>/<project_name>.git
 git push -u origin main
 ```
 
