@@ -87,3 +87,8 @@ This project is partially based on [Audrey
 Feldroy\'s](https://github.com/audreyfeldroy)\'s great
 [cookiecutter-pypackage](https://github.com/audreyfeldroy/cookiecutter-pypackage)
 repository.
+
+
+## ToDo
+- Docker build push step in CI
+- Enable support to download depedencies from github ( if not on artifactory or PyPi)
